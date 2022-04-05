@@ -23,4 +23,11 @@ Python的类定义由类头（指 ```class``` 关键字和类名部分）和统�
 **方法**则用于定义该类的对象的行为或功能实现，第一个参数为```self```<br>
 ```__init__```为构造方法，用于构造该类的对象。<br>
 
-## 
+## Assert
+```python
+assert expression
+# equal to
+if not expression:
+    raise AssertionError
+```
+当expression不成立时，触发异常。
